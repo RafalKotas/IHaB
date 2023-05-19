@@ -1,0 +1,52 @@
+$data-source-selected-item-background-color: #e88113;
+
+.btn-flat {
+    color: white;
+}
+
+.btn-flat[class*="chart-with-index-"] {
+    color: white;
+    background-color: gray!important;
+
+    &.btn:hover {
+        background-color: rgb(86, 86, 97);
+        color: greenyellow;
+    }
+}
+
+.btn-check:checked+.btn {
+    background-color: green!important;
+
+    :nth-child(1) {
+        color: yellow;
+    }
+}
+
+.btn-check:checked+.btn.data-source-btn {
+    background-color: $data-source-selected-item-background-color!important;
+}
+
+.chart-with-index-0, .chart-with-index-2 {
+    border-width: 0px 5px 0px 5px;
+    border-color: gray!important;
+}
+
+.chart-with-index-0 {
+    border-width: 0px 0px 0px 0px;
+    border-top-left-radius: 10px!important;
+}
+
+.chart-with-index-1 {
+    border-width: 0px 5px 0px 5px;
+    border-color: brown!important;
+}
+
+.chart-with-index-2 {
+    border-width: 0px 0px 0px 0px;
+    border-top-right-radius: 10px!important;
+}
+
+
+.chart-type-text {
+    transform: rotate(5deg);
+}

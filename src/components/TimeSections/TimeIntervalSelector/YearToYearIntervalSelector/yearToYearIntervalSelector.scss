@@ -1,0 +1,17 @@
+.year-to-year-interval-selectors {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px dotted black;
+
+    .interval-selector {
+        max-width: 50%;
+    }
+}
+
+.year-interval-picker-with-header {
+    max-width: 100%;
+}

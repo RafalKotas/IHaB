@@ -1,0 +1,10 @@
+.day-to-day-interval-selector {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px dotted black;
+}

@@ -1,0 +1,29 @@
+.day-including-interval-selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hour-selector-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.selected-time-intervals-viewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hour-periods-radios {
+    display: flex;
+    justify-content: center;
+
+    .hour-radio-btn:nth-child(n) {
+        flex-basis: 21%;
+    }
+}

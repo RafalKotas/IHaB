@@ -1,0 +1,35 @@
+#Comfort-footer {
+  background-color: #b3f2d6;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  min-height: 300px;
+  border: 5px solid #e4eb98;
+  border-radius: 5px;
+}
+
+#Comfort-footer #footer-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: #574214;
+  font-weight: bold;
+}
+
+#comfort-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-fixed-size {
+  width: 25%;
+  align-self: flex-start;
+}
+
+.comfort-property {
+  display: flex;
+}

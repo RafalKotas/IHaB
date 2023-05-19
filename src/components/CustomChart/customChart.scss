@@ -1,0 +1,36 @@
+.custom-chart {
+    display: flex;
+    flex-direction: row;
+    max-height: 536px;
+    margin: 10px;
+}
+
+.chart-data-section {
+    position: relative;
+    //display: flex;
+    //flex-direction: row;
+}
+
+.aside-panel {
+    height: 100%;
+    position: absolute;
+    left: -120px;
+    width: 120px;
+    /*border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;*/
+    color: red;
+}
+
+.units-to-compare-selector {
+    border: 1px solid black;
+    max-height: 100%;
+    max-width: 500px;
+    width: 500px;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/sun-pattern.png");
+}
+
+.year-selector {
+    width: 200px;
+    border: 1px dashed black;
+}

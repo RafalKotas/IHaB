@@ -1,0 +1,20 @@
+.remove-chart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  left: -120px;
+  width: 120px;
+  /*border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;*/
+  color: red;
+}
+
+.remove-chart-btn-icon {
+  color: red;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
